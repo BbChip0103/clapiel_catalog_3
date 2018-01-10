@@ -1,0 +1,276 @@
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+
+@font-face {
+  src: url(../font/NanumGothic-Regular.eot);
+  /* font-family: 'NanumGothic-Bold'; */
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.mast {
+  line-height: 0;
+  font-style: normal;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.mast:after {
+  z-index: 0;
+  content: '';
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  /* height: 100%; */
+  /* width: 100%; */
+}
+.mast > header {
+  z-index: 2;
+  position: relative;
+}
+
+.mast__title {
+  font-family:'NanumGothic', 'NanumGothic-Regular', '나눔고딕','NanumGothicWeb';
+  font-size: 2.2vh;
+  color:#000 !important;
+
+  /* font-weight: bold; */
+  /* letter-spacing: 0.2vw; */
+}
+.mast__title span {
+  -webkit-animation: letter-glow 0.4s 0s ease both;
+          animation: letter-glow 0.4s 0s ease both;
+}
+.mast__title span:nth-child(1) {
+  -webkit-animation-delay: 0.01s;
+          animation-delay: 0.01s;
+}
+.mast__title span:nth-child(2) {
+  -webkit-animation-delay: 0.02s;
+          animation-delay: 0.02s;
+}
+.mast__title span:nth-child(3) {
+  -webkit-animation-delay: 0.03s;
+          animation-delay: 0.03s;
+}
+.mast__title span:nth-child(4) {
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+}
+.mast__title span:nth-child(5) {
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+.mast__title span:nth-child(6) {
+  -webkit-animation-delay: 0.06s;
+          animation-delay: 0.06s;
+}
+.mast__title span:nth-child(7) {
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
+}
+.mast__title span:nth-child(8) {
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+}
+.mast__title span:nth-child(9) {
+  -webkit-animation-delay: 0.09s;
+          animation-delay: 0.09s;
+}
+.mast__title span:nth-child(10) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.mast__title span:nth-child(11) {
+  -webkit-animation-delay: 0.11s;
+          animation-delay: 0.11s;
+}
+.mast__title span:nth-child(12) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+.mast__title span:nth-child(13) {
+  -webkit-animation-delay: 0.13s;
+          animation-delay: 0.13s;
+}
+.mast__title span:nth-child(14) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+.mast__title span:nth-child(15) {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+.mast__title span:nth-child(16) {
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+}
+.mast__title span:nth-child(17) {
+  -webkit-animation-delay: 0.17s;
+          animation-delay: 0.17s;
+}
+.mast__title span:nth-child(18) {
+  -webkit-animation-delay: 0.18s;
+          animation-delay: 0.18s;
+}
+.mast__title span:nth-child(19) {
+  -webkit-animation-delay: 0.19s;
+          animation-delay: 0.19s;
+}
+.mast__title span:nth-child(20) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.mast__title span:nth-child(21) {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+.mast__title span:nth-child(22) {
+  -webkit-animation-delay: 0.22s;
+          animation-delay: 0.22s;
+}
+.mast__title span:nth-child(23) {
+  -webkit-animation-delay: 0.23s;
+          animation-delay: 0.23s;
+}
+.mast__title span:nth-child(24) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+}
+.mast__title span:nth-child(25) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.mast__title span:nth-child(26) {
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+}
+.mast__title span:nth-child(27) {
+  -webkit-animation-delay: 0.27s;
+          animation-delay: 0.27s;
+}
+.mast__title span:nth-child(28) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+.mast__title span:nth-child(29) {
+  -webkit-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+}
+.mast__title span:nth-child(30) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.mast__title span:nth-child(31) {
+  -webkit-animation-delay: 0.31s;
+          animation-delay: 0.31s;
+}
+.mast__title span:nth-child(32) {
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+}
+.mast__title span:nth-child(33) {
+  -webkit-animation-delay: 0.33s;
+          animation-delay: 0.33s;
+}
+.mast__title span:nth-child(34) {
+  -webkit-animation-delay: 0.34s;
+          animation-delay: 0.34s;
+}
+.mast__title span:nth-child(35) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+.mast__title span:nth-child(36) {
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
+}
+.mast__title span:nth-child(37) {
+  -webkit-animation-delay: 0.37s;
+          animation-delay: 0.37s;
+}
+.mast__title span:nth-child(38) {
+  -webkit-animation-delay: 0.38s;
+          animation-delay: 0.38s;
+}
+.mast__title span:nth-child(39) {
+  -webkit-animation-delay: 0.39s;
+          animation-delay: 0.39s;
+}
+.mast__title span:nth-child(40) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.mast__title span:nth-child(41) {
+  -webkit-animation-delay: 0.41s;
+          animation-delay: 0.41s;
+}
+.mast__title span:nth-child(42) {
+  -webkit-animation-delay: 0.42s;
+          animation-delay: 0.42s;
+}
+.mast__title span:nth-child(43) {
+  -webkit-animation-delay: 0.43s;
+          animation-delay: 0.43s;
+}
+.mast__title span:nth-child(44) {
+  -webkit-animation-delay: 0.44s;
+          animation-delay: 0.44s;
+}
+.mast__title span:nth-child(45) {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+.mast__title span:nth-child(46) {
+  -webkit-animation-delay: 0.46s;
+          animation-delay: 0.46s;
+}
+.mast__title span:nth-child(47) {
+  -webkit-animation-delay: 0.47s;
+          animation-delay: 0.47s;
+}
+.mast__title span:nth-child(48) {
+  -webkit-animation-delay: 0.48s;
+          animation-delay: 0.48s;
+}
+.mast__title span:nth-child(49) {
+  -webkit-animation-delay: 0.49s;
+          animation-delay: 0.49s;
+}
+.mast__title span:nth-child(50) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes letter-glow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 2vh rgba(0, 0, 0, 1);
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes letter-glow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 2vh rgba(0, 0, 0, 1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: none;
+  }
+}

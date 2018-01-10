@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Clapiel</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <style>
+    body {
+      display:none;
+    }
+    div.bg_main{
+      position:relative;
+      height:100vh;
+      width:100vw;
+      background-image: url(./image/index/bg.png);
+      background-size: 100%;
+      background-position: 0;
+      background-repeat: no-repeat;
+    }
+
+    div.bg_main > img.logo {
+      position:absolute;
+      height:auto;
+      width:40vw;
+      margin:auto;
+      top:0; bottom:0; left:0; right:0;
+      display:none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg_main">
+    <img class="logo" src="./image/index/logo.png" alt="">
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $("body").fadeIn('fast');
+
+      setTimeout(function() {
+       $(".logo").fadeIn('slow');
+     }, 500);
+
+     setTimeout(function() {
+      $(".logo").fadeOut('slow');
+    }, 2500);
+
+      setTimeout(function() {
+       $("body").fadeOut('fast', function(){
+         window.location = './main.html';
+       });
+     }, 3000);
+   });
+  </script>
+</body>
+
+</html>
