@@ -19,21 +19,12 @@ $(document).ready(function(){
   //   }, 200 * i);
   // });
 
-  $('.mast__header>.txt_bt_margin.top>div>a>.js-spanize').each(function(i, e){
+  $('.js-spanize').each(function(i, e){
     setTimeout(function() {
       $(e).css('opacity', '100').html(function (i, el) {
         var spanizer = $.trim(el).replace(/&amp;/g,"&").split("");
         return '<span>' + spanizer.join('</span><span>') + '</span>';
       });
-    }, 100 * i);
-  });
-
-  $('.mast__header>.txt_bt_margin.bottom>div>a>.js-spanize').each(function(i, e){
-    setTimeout(function() {
-      $(e).css('opacity', '100').html(function (i, el) {
-        var spanizer = $.trim(el).replace(/&amp;/g,"&").split("");
-        return '<span>' + spanizer.join('</span><span>') + '</span>';
-      });
-    }, 100 * i);
+    }, 1000 * i);
   });
 });
