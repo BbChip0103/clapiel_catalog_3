@@ -1,5 +1,6 @@
 .carousel-item {
-  height: 100vh;
+  width: 100vw;
+  height: 150vw;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -8,12 +9,25 @@
   background-size: cover;
 }
 
-
-.bg-dark{
-  background-color: #FFFFFF;
-
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 15vw;
+  width: 15vw;
+  background-size: 100%, 100%;
+  background-image: none;
+  color: #868e96;
 }
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 10vw;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 10vw;
+}
 
 /* for fade-in, fade-out */
  body {
@@ -117,6 +131,10 @@ div a img {
 
 .dropdown-menu>li {
   padding-left: 5%;
+}
+
+.bg-dark{
+  background-color: #343a40 !important;
 }
 
 /* SNS link */
