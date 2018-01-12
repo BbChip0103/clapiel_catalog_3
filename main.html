@@ -38,7 +38,7 @@
     }
     .center_txt{
       margin-top:4vh;
-      margin-bottom:5.5vh;
+      margin-bottom:5vh;
       margin-left:25vw;
       margin-right:25vw;
       width:50vw;
@@ -55,8 +55,8 @@
     .img_bt_container {
       margin-left:15vw;
       margin-right:15vw;
-      padding-top: 1.5vh;
-      padding-bottom: 1.5vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
     }
 
     .img_bt_container>a>img {
@@ -113,17 +113,17 @@
     <div><img class="title_txt" src="image/main/text1.png"></img></div>
     <div><img class="center_txt" src="image/main/text2.png"></img></div>
     <div class="img_bt_container">
-      <a href="./care.html">
+      <a href="./care.html?page=1">
         <img src="image/main/main_bt_1.png" alt=""></img>
       </a>
     </div>
     <div class="img_bt_container">
-      <a href="./care.html">
+      <a href="./care.html?page=1">
         <img src="image/main/main_bt_2.png" alt=""></img>
       </a>
     </div>
     <div class="img_bt_container">
-      <a href="./care.html">
+      <a href="./care.html?page=1">
         <img src="image/main/main_bt_3.png" alt=""></img>
       </a>
     </div>
@@ -142,6 +142,23 @@
 <script src = "vendor/jquery/jquery-ui.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/custom_script.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $('#obj_fade>div').each(function(i, e){
+      setTimeout(function() {
+        // $(e).fadeIn('slow');
+        $(e).show('drop', { direction: 'down' }, 'slow');
+      }, 250 * i);
+    });
+
+    // $('.fade_obj.in').each(function(i, e){
+    //   setTimeout(function() {
+    //     $(e).fadeIn('slow');
+    //   }, 200 * i);
+    // });
+  });
+  </script>
 
 
 </body>

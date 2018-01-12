@@ -15,7 +15,40 @@
 
   <!-- Custom styles for this template -->
   <link href="css/custom_style.css" rel="stylesheet">
-
+  <style>
+    .bg{
+      background-image: url(./image/care/bg.png);
+      background-size: 100% 100%, 100% 100%;
+      background-repeat: no-repeat, no-repeat;
+    }
+    .bg.b_care{
+      background-image: url(./image/care/b_care/bg_side.png), url(./image/care/bg.png);
+    }
+    .bg.s_care{
+      background-image: url(./image/care/s_care/bg_side.png), url(./image/care/bg.png);
+    }
+    .bg.p_care{
+      background-image: url(./image/care/s_care/bg_side.png), url(./image/care/bg.png);
+    }
+    .bg.last_p1{
+      background-image: url(./image/care/bg.png);
+    }
+    .bg.last_p2{
+      background-image: url(./image/care/last/p2_bg.png);
+    }
+    .bg>div{
+      position:absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      display:none;
+    }
+    .bg>div>img{
+      height:100%;
+      width:100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -77,44 +110,106 @@
 
         <div class="carousel-inner" role="listbox">
           <!-- Slide 1 - Set the background image for this slide in the line below -->
-          <div class="carousel-item active">
-            <img class="img_full_Size" src="./image/b_care/b_care_p1.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg b_care active">
+            <div>
+              <img src="./image/care/b_care/title.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/b_care/p1_prd_1.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/b_care/p1_prd_2.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/b_care/p1_prd_3.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide 2- Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p2.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg b_care">
+            <div>
+              <img src="./image/care/b_care/title.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/b_care/p2_prd_1.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/b_care/p2_prd_2.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/b_care/p2_prd_3.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide3- Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p3.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg s_care">
+            <div>
+              <img src="./image/care/s_care/title.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/s_care/p1_prd_1.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p1_prd_2.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p1_prd_3.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p1_prd_4.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide4 Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p4.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg s_care">
+            <div>
+              <img src="./image/care/s_care/title.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/s_care/p2_prd_1.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p2_prd_2.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p2_prd_3.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/s_care/p2_prd_4.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide5- Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p5.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg p_care">
+            <div>
+              <img src="./image/care/p_care/title.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/p_care/p1_prd_1.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/p_care/p1_prd_2.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide 6- Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p6.png" alt=""></img>
-            <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-item bg last_p1">
+            <div>
+              <img src="./image/care/last/p1_1.png" alt=""></img>
             </div>
+            <div>
+              <img src="./image/care/last/p1_2.png" alt=""></img>
+            </div>
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <!-- Slide7 - Set the background image for this slide in the line below -->
-          <div class="carousel-item">
-            <img class="img_full_Size" src="./image/b_care/b_care_p7.png" alt=""></img>
+          <div class="carousel-item bg last_p2">
+            <div>
+              <img src="./image/care/last/p2_center.png" alt=""></img>
+            </div>
+            <div>
+              <img src="./image/care/last/p2_under.png" alt=""></img>
+            </div>
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -159,13 +254,40 @@
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/custom_script.js"></script>
-</body>
 
+  <script>
+    (function(){
+        var originalAddClassMethod = jQuery.fn.addClass;
+
+        jQuery.fn.addClass = function(){
+            var result = originalAddClassMethod.apply( this, arguments );
+            //Override
+            ShowPadeEffect();
+            return result;
+        }
+    })();
+
+    $(document).ready(function(){
+      $('.active>div').each(function(i, e){
+        setTimeout(function() {
+          $(e).fadeIn('slow');
+        }, 300 * i);
+      });
+    });
+
+    function ShowPadeEffect(){
+      $('.carousel-item-next>div').each(function(i, e){
+        setTimeout(function() {
+          $(e).fadeIn('slow');
+        }, 300 * i);
+      });
+    };
+  </script>
+</body>
 </html>
