@@ -11,9 +11,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <!-- <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css"> -->
   <link href="css/custom_style.css" rel="stylesheet">
-  <!-- <link rel='stylesheet' href='http://fonts.googleapis.com/earlyaccess/kopubbatang.css'> -->
 
   <style>
     .bg_main{
@@ -66,17 +64,69 @@
 </head>
 
 <body>
-  <!-- buger-menu -->
-  <div class="burger-place bg-dark" style="z-index:999;">
-    <a class="burger-toggler" href="#">
-      <span class="icon-bar top-bar"></span>
-      <span class="icon-bar middle-bar"></span>
-      <span class="icon-bar bottom-bar"></span>
-    </a>
-  </div>
+
+
+  <div id="st-container" class="st-container st-effect">
+    <nav class="st-menu st-effect">
+      <h2><a href="./index.html">Clapiel</a></h2>
+      <ul>
+        <li><a href="./care.html?page=b_care">BASIC CARE</a></li>
+        <li><a href="./care.html?page=s_care">Sun CARE</a></li>
+        <li><a href="./care.html?page=p_care">Package Care</a></li>
+        <li><a href="./care.html?page=contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- content push wrapper -->
+    <div class="st-pusher">
+      <div class="st-content"><!-- this is the wrapper for the content -->
+        <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+          <!-- buger-menu -->
+          <div class="burger-place bg-dark" id="st-trigger-effects" style="z-index:999;">
+            <a class="burger-toggler" href="#">
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </a>
+          </div>
+          <div class="bg_main" id="obj_fade">
+            <div><img class="title_txt" src="image/main/text1.png"></img></div>
+            <div><img class="center_txt" src="image/main/text2.png"></img></div>
+            <div class="img_bt_container">
+              <a href="./care.html?page=b_care">
+                <img src="image/main/main_bt_b_care.png" alt=""></img>
+              </a>
+            </div>
+            <div class="img_bt_container">
+              <a href="./care.html?page=s_care">
+                <img src="image/main/main_bt_s_care.png" alt=""></img>
+              </a>
+            </div>
+            <div class="img_bt_container">
+              <a href="./care.html?page=p_care">
+                <img src="image/main/main_bt_p_care.png" alt=""></img>
+              </a>
+            </div>
+            <div><img class="under_txt" src="image/main/text3.png"></img></div>
+          </div>
+
+          <!-- Footer -->
+          <footer class="py-5 bg-dark">
+            <div class="container">
+              <p class="h4 text-center text-secondary">Clapiel Catalog 3</p>
+            </div>
+          </footer>
+
+
+        </div><!-- /st-content-inner -->
+      </div><!-- /st-content -->
+    </div><!-- /st-pusher -->
+  </div><!-- /st-container -->
+
+
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="./index.html">Clapiel</a>
       <div class="collapse navbar-collapse show">
         <ul class="navbar-nav ml-auto">
@@ -86,35 +136,9 @@
           <li class="nav-item"><a class="nav-link" href="./care.html?page=contact">Contact</a></li>
         </ul>
     </div>
-  </nav>
+  </nav> -->
 
-  <div class="bg_main" id="obj_fade">
-    <div><img class="title_txt" src="image/main/text1.png"></img></div>
-    <div><img class="center_txt" src="image/main/text2.png"></img></div>
-    <div class="img_bt_container">
-      <a href="./care.html?page=b_care">
-        <img src="image/main/main_bt_b_care.png" alt=""></img>
-      </a>
-    </div>
-    <div class="img_bt_container">
-      <a href="./care.html?page=s_care">
-        <img src="image/main/main_bt_s_care.png" alt=""></img>
-      </a>
-    </div>
-    <div class="img_bt_container">
-      <a href="./care.html?page=p_care">
-        <img src="image/main/main_bt_p_care.png" alt=""></img>
-      </a>
-    </div>
-    <div><img class="under_txt" src="image/main/text3.png"></img></div>
-  </div>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="h4 text-center text-secondary">Clapiel Catalog 3</p>
-    </div>
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
