@@ -179,16 +179,18 @@ div a img {
 	list-style: none;
 }
 
-.st-menu h2 {
-	padding: 1em;
+.st-menu>div {
 	color: rgba(0,0,0,0.4);
 	text-shadow: 0 0 1px rgba(0,0,0,0.1);
 	font-weight: 1em;
 	font-size: 8vw;
 }
-.st-menu>h2>a{
-  /* margin:auto; */
+
+.st-menu>div>a{
+  padding: 1em;
+  display:inline-block;
 }
+
 
 .st-menu ul li a {
 	display: block;
@@ -205,10 +207,14 @@ div a img {
 	transition: background 0.3s, box-shadow 0.3s;
 }
 
-.st-menu>h2:hover, .st-menu>ul>li:hover {
+.st-menu>div:hover, .st-menu>ul>li:hover {
 	background: rgba(0,0,0,0.7);
 	box-shadow: 0 -1px rgba(0,0,0,0);
-	color: #fff;
+}
+
+.st-menu>div>a, .st-menu>ul>li>a{
+  text-decoration:none;
+  color: #fff;
 }
 
 /* Individual effects */
