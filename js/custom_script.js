@@ -48,3 +48,9 @@ $(function(){
       $(document).bind( "click", resetClickFn );
     });
 });
+
+$('.carousel').carousel({
+  pause: true,
+  interval: false,
+	wrap: false
+});
