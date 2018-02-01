@@ -37,7 +37,7 @@
       background-image: url(./image/line/s_line/bg_side.png), url(./image/line/bg.png);
     }
     .bg.p_line{
-      background-image: url(./image/line/s_line/bg_side.png), url(./image/line/bg.png);
+      background-image: url(./image/line/p_line/bg_side.png), url(./image/line/bg.png);
     }
     .bg.last_p1{
       background-image: url(./image/line/bg.png);
@@ -153,7 +153,7 @@
                     <div class="carousel-caption d-none d-md-block"></div>
                   </div>
                   <!-- Slide 4-->
-                  <div class="carousel-item bg r_line">
+                  <div class="carousel-item bg r_line start">
                     <div>
                       <img src="./image/line/r_line/title.png" alt=""></img>
                     </div>
@@ -163,7 +163,7 @@
                     <div class="carousel-caption d-none d-md-block"></div>
                   </div>
                   <!-- Slide 5-->
-                  <div class="carousel-item bg h_line">
+                  <div class="carousel-item bg h_line start">
                     <div>
                       <img src="./image/line/h_line/title.png" alt=""></img>
                     </div>
@@ -189,7 +189,7 @@
                     <div class="carousel-caption d-none d-md-block"></div>
                   </div>
                   <!-- Slide 7-->
-                  <div class="carousel-item bg p_line">
+                  <div class="carousel-item bg p_line start">
                     <div>
                       <img src="./image/line/p_line/title.png" alt=""></img>
                     </div>
@@ -273,7 +273,7 @@
 
     $(document).ready(function(){
       var selected_page = new RegExp('[\?&]' + 'page' + '=([^&#]*)').exec(window.location.href)[1];
-      var page_num = {'b_line':0, 's_line':2, 'p_line':4, 'contact':6};
+      var page_num = {'b_line':0, 'l_line':2, 'r_line':3, 'h_line':4, 's_line':5, 'p_line':6, 'contact':7};
       $('.carousel-indicators>li').eq(page_num[selected_page]).addClass("active");
       console.log(page_num[selected_page])
       $('.'+selected_page+'.start').addClass("active");
